@@ -32,6 +32,11 @@ body {
     margin-left: 70px;
 }
 
+.menu__btn {
+    display: none;
+}
+
+
 input.form-control {
     width: 800px;
     background-color: rgba(0,0,0,0.1);
@@ -247,10 +252,20 @@ i {
     header {
         height: auto;
     }
-    .navbar-brand {
+    .logo {
         margin: 0;
-        text-align: left;
-        font-size: xx-large;
+        width: 10rem;
+    }
+
+    .menu__btn {
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-right: 14px;
+    }
+
+    form {
+        margin: auto;
     }
 
     input.form-control {
@@ -258,7 +273,7 @@ i {
     }
 
     .btn {
-        width: 80px;
+        width: 70px;
     }
 
     .menu {
@@ -271,7 +286,7 @@ i {
 
     .carousel {
         display: grid;
-        align-items: center;
+        place-content: center;
         width: 100%;
         height: 280px;
         padding: 0;
@@ -279,8 +294,10 @@ i {
     }
 
     .letter {
-        font-size: 20px;
+        text-align: center;
+        font-size: 1.5rem;
         margin: auto;
+        padding-bottom: 20px;
     }
 
     .carousel-inner {
