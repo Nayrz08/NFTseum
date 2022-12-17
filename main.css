@@ -1,0 +1,74 @@
+.main__content {
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.header-2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.nft__games-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nft__games-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 350px;
+    margin-top: 3rem;
+    transition: transform 0.3s;
+    box-shadow: rgba(3, 3, 3, 0.3) 0px 0px 5px 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    height: 70px;
+}
+
+h4 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 378px) {
+    .main__content {
+        height: auto;
+        display: grid;
+        place-content: center;
+    }
+
+    h1.header-2 {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .nft__games-1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nft__games-2 {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        height: 14rem;
+        width: 20rem;
+    }
+
+    .card-img {
+        width: 20rem;
+    }
+}
