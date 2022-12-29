@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     text-align: center;
+    color: #ffff;
 }
 
 .nft__games-1 {
@@ -23,7 +24,8 @@
     height: 350px;
     margin-top: 3rem;
     transition: transform 0.3s;
-    box-shadow: rgba(3, 3, 3, 0.3) 0px 0px 5px 5px;
+    overflow: hidden;
+    border: none;
 }
 
 .card:hover {
@@ -40,7 +42,7 @@ h4 {
     text-align: center;
 }
 
-@media (max-width: 378px) {
+@media only screen and (max-width: 600px) {
     .main__content {
         height: auto;
         display: grid;

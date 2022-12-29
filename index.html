@@ -16,15 +16,13 @@
 
   </head>
   <body>
-    <div class="bg">
-      <img src="/assets/NFT.jpg" alt="Axie Infinity" class="bgimg">   
-    </div>
+
 <!-- Header / Navigation -->
     <header class="header sticky-top" id="header">
       <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
         <div class="container-fluid">
+          <img src="/assets/svg/icons8-menu.svg" alt="icon-menu" class="menu__btn" onclick="enable">
           <img src="/assets/NFTseum_Logo-preview.png" alt="Brand Logo" class="logo">
-          <img src="/assets/svg/icons8-menu.svg" alt="icon-menu" class="menu__btn">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search Games, NFT, Collectibles" aria-label="Search">
             <button class="btn" type="submit">Search</button>
@@ -37,15 +35,15 @@
                 <hr>
                 <a href="#">ALL GameFi</a>
                 <hr>
-                <a href="#"> <img src="/assets/icons8-ethereum.svg" alt="Eth logo" class="crypto__logo"> ETH NFT & GameFi</a>
+                <a href="#"> <img src="/assets/icons8-ethereum.svg" alt="Eth logo" class="crypto__logo"> ETHEREUM </a>
                 <hr>
-                <a href="#"> <img src="/assets/icons8-binance-48.png" alt="BSC logo" class="crypto__logo"> BSC NFT & GameFi</a>
+                <a href="#"> <img src="/assets/icons8-binance-48.png" alt="BSC logo" class="crypto__logo"> BINANCE </a>
                 <hr>
-                <a href="#"> <img src="/assets/icons8-solana.svg" alt="SOL logo" class="crypto__logo"> SOL NFT & GameFi</a>
+                <a href="#"> <img src="/assets/icons8-solana.svg" alt="SOL logo" class="crypto__logo"> SOLANA </a>
                 <hr>
-                <a href="#"> <img src="/assets/icons8-polygon-48.png" alt="MATIC logo" class="crypto__logo"> MATIC NFT & GameFi</a>
+                <a href="#"> <img src="/assets/icons8-polygon-48.png" alt="MATIC logo" class="crypto__logo"> POLYGON </a>
                 <hr>
-                <a href="#"> <img src="/assets/icons8-avalanche-48.png" alt="AVAX logo" class="crypto__logo"> AVAX NFT & GameFi</a>
+                <a href="#"> <img src="/assets/icons8-avalanche-48.png" alt="AVAX logo" class="crypto__logo"> AVALANCHE </a>
               </div>
             </div>
             <a href="#home" class="nav-content-1">Inventory</a>
@@ -55,7 +53,7 @@
                 <a href="#">Inventory</a>
                 <a href="#">Favorites</a>
                 <a href="#">Watch List</a>
-                <a href="#header-2">Your Games</a>
+                <a href="#header-2">Top Games</a>
                 <a href="#">Collections</a>
                 <a href="#">Settings</a>
               </div>
@@ -94,9 +92,122 @@
         </div>
       </div>
     </section>
+    <!-- Live ticker -->
+    <section class="live__ticker">
+     <!-- Ethereum -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/ETHUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">Ethereum price</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BITSTAMP:ETHUSD",
+  "width": "350",
+  "height": "220",
+  "locale": "en",
+  "dateRange": "1M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- End of Ethereum -->
+<!-- BNB -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BNBUSD/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">Binance coin price</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BINANCE:BNBUSD",
+  "width": "350",
+  "height": "220",
+  "locale": "en",
+  "dateRange": "1M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- End of BNB -->
+<!-- Solana -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/SOLUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">Solana price</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BITSTAMP:SOLUSD",
+  "width": "350",
+  "height": "220",
+  "locale": "en",
+  "dateRange": "1M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- End of Solana -->
+<!-- Polygon -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/MATICUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">Matc Network price</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BITSTAMP:MATICUSD",
+  "width": "350",
+  "height": "220",
+  "locale": "en",
+  "dateRange": "1M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- End of Polygon -->
+<!-- Avalanche -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AVAXUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">Avalanche price</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "BITSTAMP:AVAXUSD",
+  "width": "350",
+  "height": "220",
+  "locale": "en",
+  "dateRange": "1M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- End of Avalanche -->
+    </section>
 <!-- Game Content -->
     <section class="main__content">
-      <h1 class="header-2" id="header-2">YOUR GAMES</h1>
+      <h1 class="header-2" id="header-2">TOP GAMES</h1>
       <div class="main__container">
         <section class="nft__games-1">
           <div class="card" >
