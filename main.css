@@ -20,15 +20,18 @@
     justify-content: space-around;
 }
 
-.card {
+.nft-banner {
     height: 350px;
     margin-top: 3rem;
-    transition: transform 0.3s;
     overflow: hidden;
     border: none;
 }
 
-.card:hover {
+.card-img {
+    transition: transform 0.5s;
+}
+
+.card-img:hover {
     transform: scale(1.1);
 }
 
@@ -65,8 +68,8 @@ h4 {
         margin-bottom: 50px;
     }
 
-    .card {
-        height: 14rem;
+    .nft-banner {
+        height: 10rem;
         width: 20rem;
     }
 

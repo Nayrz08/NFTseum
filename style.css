@@ -11,13 +11,13 @@ html {
 
 body {
     height: 100%;
-    background-color: #030303;
+    background-color: #303030;
 }
 
 /* Header */
 
 .navbar{
-    background-color: rgba(0,0,0,0.5);
+    background-color: transparent;
 }
 
 .logo {
@@ -125,9 +125,9 @@ input.form-control {
 }
 
 .banner__img {
+    margin-top: 30px;
     position: relative;
     height: 72vh;
-    background-color: rgba(0,0,0,0.5);
 }
 
 .carousel {
@@ -137,7 +137,6 @@ input.form-control {
     padding: 20px 100px 80px 100px;
     margin: auto;
     border-radius: 15px;
-    background-color: rgba(256 , 256,256,0.2);
 }
 
 .carousel-inner {
@@ -162,7 +161,10 @@ input.form-control {
 
 .letter {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
     color: #f1f1f1;
+    padding-bottom: 30px;
 }
 
 .card-img {
@@ -245,7 +247,7 @@ i {
     margin-top: auto;
 }
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 600px) {
 
     .bgimg {
         height: 375px;
